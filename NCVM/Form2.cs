@@ -81,6 +81,7 @@ namespace NCVM
             connect_event = true;
             this.Visible = false;
             HNC_Connect.start_transfer = true;
+            Setting_save.savefile("save.dat");
             //HNC_Connect.thread_connect();
         }
 

@@ -881,7 +881,7 @@ namespace NCVM
 
         private void NCVM_Form_FormClosed(object sender, FormClosedEventArgs e)
         {
-            Setting_save.savefile("save.dat");
+            //Setting_save.savefile("save.dat");
             Environment.Exit(0);
         }
 
